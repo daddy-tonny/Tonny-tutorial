@@ -9,6 +9,10 @@ public Bicycle( int startspeed,int startgear){
     gear = startgear;   
 }
 
+public int getGear() {
+    return gear;
+}
+
  public void setgear(int newValue){
     gear= newValue;
  }
